@@ -81,5 +81,6 @@ HOW TO MAKE DHCP SERVER
    
    sampai status nya berubah menjadi running seperti gambar dibawah ini
    
+   ![Screenshot (439)](https://user-images.githubusercontent.com/118157585/214772445-1a99cc52-470e-450f-9374-199f83f3e218.png)
 
    
