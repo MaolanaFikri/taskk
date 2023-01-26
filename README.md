@@ -83,4 +83,9 @@ HOW TO MAKE DHCP SERVER
    
    ![Screenshot (439)](https://user-images.githubusercontent.com/118157585/214772445-1a99cc52-470e-450f-9374-199f83f3e218.png)
 
+
+9. Untuk tahap konfigurasi udah selesai, lalu kita lanjut setting network adapter di VM nya. berlaku di kedua VM nya.
+
+   ![Screenshot (440)](https://user-images.githubusercontent.com/118157585/214772697-2ab0286f-e262-45b8-a77a-f789881fd573.png)
+   ![Screenshot (441)](https://user-images.githubusercontent.com/118157585/214772704-e17fd9bd-3bc9-4813-8b29-8f6da9594c1d.png)
    
