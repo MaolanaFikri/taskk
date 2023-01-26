@@ -63,5 +63,23 @@ HOW TO MAKE DHCP SERVER
    abis itu kita cari kata yang berawalan A Slightly dan hilangakan semua pagar# yang dibawah kata A Slightly
    lalu ip nya sesuai settingan masing masing
    
-  
+   ![Screenshot (438)](https://user-images.githubusercontent.com/118157585/214771771-005cedc0-da79-4ce1-9d61-a51d9fd712fc.png)
+
+
+7. Setelah itu kita restart dengan perintah :
+   
+   ``
+   systemctl restart restart isc-dhcp-server
+   ``
+   
+   
+8. Selanjutnya kita cek dulu statusnya
+   
+   ``
+   systemctl status isc-dhcp-server
+   ``
+   
+   sampai status nya berubah menjadi running seperti gambar dibawah ini
+   
+
    
