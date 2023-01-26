@@ -1,3 +1,6 @@
+HOW TO MAKE DHCP SERVER
+
+
 1. Kita install buat DHCP Server nya dengan perintah :
 
    ``
@@ -47,4 +50,18 @@
    lalu un# pada bacaan DHCPDv4 agar dapat digunakan dan dapat di input pada INTERFACEv4
    lalu INTERFACEv4 di isi dengan nama driver jaringan kita yaitu enp0s3
    
+   ![Screenshot (437)](https://user-images.githubusercontent.com/118157585/214771146-eec36e18-0e2e-4169-b8ba-729fa56c176d.png)
+
+
+6. Sekarang kita masuk kebagian settingan utama DHCP nya
+   kita edit file tersebut dengan menggunakan perintah :
+   
+   ``
+   nano /etc/dhcp/dhcpd.conf
+   ``
+   
+   abis itu kita cari kata yang berawalan A Slightly dan hilangakan semua pagar# yang dibawah kata A Slightly
+   lalu ip nya sesuai settingan masing masing
+   
+  
    
