@@ -88,4 +88,13 @@ HOW TO MAKE DHCP SERVER
 
    ![Screenshot (440)](https://user-images.githubusercontent.com/118157585/214772697-2ab0286f-e262-45b8-a77a-f789881fd573.png)
    ![Screenshot (441)](https://user-images.githubusercontent.com/118157585/214772704-e17fd9bd-3bc9-4813-8b29-8f6da9594c1d.png)
+  
+  
+10. Kita cek IP kedua nya ( Server dan Client ) dan si client sudah dapat IP dari Vm Server
    
+   ![Screenshot (442)](https://user-images.githubusercontent.com/118157585/214773071-dbada0de-db6b-41bd-9433-03acad07bff0.png)
+   ![Screenshot (443)](https://user-images.githubusercontent.com/118157585/214773083-04082203-7c0a-4601-8a92-0d63317f819e.png)
+   
+   
+   FYI : Server dinamai dengan ubuntu dan Client dinamai dengan ubuntu2
+
