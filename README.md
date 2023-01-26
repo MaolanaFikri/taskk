@@ -1,28 +1,28 @@
 1. Kita install buat DHCP Server nya dengan perintah :
 
-``
-apt-get install isc-dhcp-server -y
-``
+   ``
+   apt-get install isc-dhcp-server -y
+   ``
 
 2. Lalu kita konfigurasi ip nya dengan menetikkan perintah :
 
-``
-nano /etc/netplan/00-installer-config.yaml
-``
-lalu ikutin gambar dibawah ini
+   ``
+   nano /etc/netplan/00-installer-config.yaml
+   ``
+   lalu ikutin gambar dibawah ini
 
 ![Screenshot (434)](https://user-images.githubusercontent.com/118157585/214761212-953dc95b-e3a8-4299-bce8-6da545e0729b.png)
 
 
 3. Kita restart konfirgurasi kita yang tadi. karna kita belum di user root, maka harus menggunakan
-``
-sudo
-``
-:
+   ``
+   sudo
+   ``
+   :
 
-``
-sudo netplan apply
-``
+   ``
+   sudo netplan apply
+   ``
 
 ![Screenshot (435)](https://user-images.githubusercontent.com/118157585/214769683-ca83d201-3baf-4b9c-8105-e292456446fb.png)
 
@@ -35,3 +35,16 @@ sudo netplan apply
    ``
    
    lihat gambar dibawah ini 
+   
+![Screenshot (436)](https://user-images.githubusercontent.com/118157585/214770250-c970abc8-0da5-4882-94d8-9339ebe52ae9.png)
+
+
+5. Langkah selanjutnya adalah menentukan nama driver default dhcp servernya agar terhubung ke client dengan mengedit pada bagian isc-dhcp-server dengan mengetikkan perintah :
+
+   `` 
+   nano /etc/default/isc-dhcp-server
+   ``
+   lalu un# pada bacaan DHCPDv4 agar dapat digunakan dan dapat di input pada INTERFACEv4
+   lalu INTERFACEv4 di isi dengan nama driver jaringan kita yaitu enp0s3
+   
+   
