@@ -27,3 +27,6 @@ nah sekarang kita akan belajar case untuk menjadi seorang attacker menggunakan w
 
 5. taraaaa, sekarang file udah berhasil di tanam di web tersebut.
 
+![Screenshot (458)](https://user-images.githubusercontent.com/118157585/215697901-896833f5-bc7c-4c4a-b020-2901c68efee6.png)
+
+
