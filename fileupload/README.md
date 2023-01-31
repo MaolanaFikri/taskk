@@ -18,3 +18,12 @@ nah sekarang kita akan belajar case untuk menjadi seorang attacker menggunakan w
 3. nah kita cek di folder menggunakan cli, dan ternyata terdapat file malicious tersebut.
 
 ![Screenshot (457)](https://user-images.githubusercontent.com/118157585/215696095-97f5f4e5-86f0-433a-8b4c-8176bd76a564.png)
+
+4. lalu sekarang kita copy folder seperti gambar diatas, lalu salin di url DVWA
+
+   ```
+   http://192.168.18.115/DVWA/hackable/uploads/hacked.html
+   ```
+
+5. taraaaa, sekarang file udah berhasil di tanam di web tersebut.
+
