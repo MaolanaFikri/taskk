@@ -51,5 +51,11 @@ sqlmap -u 'http://192.168.18.115/DVWA/vulnarebilities/sqli_blind/?id=1&Submit=Su
 nah disini terdapat 8 columns yang mana salah dua column tersebut adalah yang kita cari, yaitu <b><i> password dan user_id </i></b>
 
 ![Screenshot (470)](https://user-images.githubusercontent.com/118157585/216914627-66c0f0cc-8238-4fb1-9e14-3a5366b64288.png)
+
+ini tampilan saat kita sudah ngedump <b><i>user_id</i></b> columns
+
 ![Screenshot (471)](https://user-images.githubusercontent.com/118157585/216914738-07273ce5-2666-4607-89a5-e8390b9aa9c0.png)
+
+ini tampilan saat kita sudah ngedump <b><i>password</i></b> columns
+
 ![Screenshot (472)](https://user-images.githubusercontent.com/118157585/216914855-fea2c425-2fe1-4fad-8929-a3d3e1584747.png)
