@@ -16,7 +16,13 @@ dammmmn! ternyata vulnerable.
 nah sekarang saatnya kita copy link tersebut, untuk kita tes di tools <b><i> SQL Injection </i></b>
 
 ![Screenshot (467)](https://user-images.githubusercontent.com/118157585/216914420-1432de38-8c99-4103-b26b-ed528f4114c2.png)
+
+sebelum ke <b><i> SQL Injection </i></b> kita cari tahu dulu PHPSESSID nya, yaitu dengan klik kanan pada tampilan dvwa SQLI Blind, llau klik inspect element, nah setelah itu klik storage.
+
 ![Screenshot (468)](https://user-images.githubusercontent.com/118157585/216914472-d1365172-f36a-4f67-b3fd-b78ce72bccf4.png)
+
+
+
 ![Screenshot (469)](https://user-images.githubusercontent.com/118157585/216914534-a11d21ed-488b-4cc2-964c-80d04f2316c6.png)
 ![Screenshot (470)](https://user-images.githubusercontent.com/118157585/216914627-66c0f0cc-8238-4fb1-9e14-3a5366b64288.png)
 ![Screenshot (471)](https://user-images.githubusercontent.com/118157585/216914738-07273ce5-2666-4607-89a5-e8390b9aa9c0.png)
