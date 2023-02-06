@@ -29,3 +29,4 @@ nah setelah finish kita klik analyze now
 
 ![Screenshot (475)](https://user-images.githubusercontent.com/118157585/216949367-4f6ae076-6557-457d-a8d9-65b759223473.png)
 
+Hasilnya buruk, seperti yang sudah diduga. Tidak ada keacakan dalam nilainya.
